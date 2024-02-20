@@ -40,7 +40,7 @@ Dependencies for this project:
 - scipy
 - stats
 ```bash
-pip install jupyterlab pandas pyarrow matplotlib seaborn scipy stats sklearn numpy
+pip install jupyterlab pandas pyarrow matplotlib seaborn scipy stats 
 pip freeze > requirements.txt
 ```
 #### Initial and Subsequent Commits to Github for version control
