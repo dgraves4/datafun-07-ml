@@ -31,16 +31,19 @@ source .venv/scripts/activate #windows
 - Add .vscode/ and .venv/ to .gitignore file.
 
 #### Install dependencies and freeze to requirements.txt
-Dependencies for this project:
-- Jupyterlab 
-- pandas 
-- pyarrow
-- matplotlib 
-- seaborn
-- scipy
-- stats
+import matplotlib
+from matplotlib import pyplot as plt
+import pandas as pd
+import pyarrow
+import scipy
+from scipy import stats
+import seaborn as sns
+import sklearn
+from sklearn.model_selection import train_test_split
+import numpy as np
 ```bash
-pip install jupyterlab pandas pyarrow matplotlib seaborn scipy stats 
+pip install jupyterlab pandas pyarrow matplotlib seaborn scipy stats scikit-learn
+
 pip freeze > requirements.txt
 ```
 #### Initial and Subsequent Commits to Github for version control
@@ -59,9 +62,16 @@ git push origin main
 - Install dependencies in .ipynb file at the top of the file and after markdown introduction.
 
 ```bash
-import matplotlib.pyplot as plt
+import matplotlib
+from matplotlib import pyplot as plt
 import pandas as pd
+import pyarrow
+import scipy
+from scipy import stats
 import seaborn as sns
+import sklearn
+from sklearn.model_selection import train_test_split
+import numpy as np
 ```
 
 
