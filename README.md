@@ -67,36 +67,40 @@ from sklearn.model_selection import train_test_split
 ```
 ## Project Outline
 
-Part 1 - Chart a Straight line
-- Follow the instructions from 10.16
-- Use pandas DataFrames to plot Celsius vs Fahrenheit 
-Part 2 - Predict Avg high Temp in NYC in January (Object Oriented Programming)
-- Section 1: Data Acquisition
-- Section 2: Data Inspection
-- Section 3: Data Cleaning
-- Section 4: Descriptive Statistics
-- Section 5: Build the Model
-- Section 6: Predict
-- Section 7: Visualizations
-Part 3 - Predict Avg High Temp in NYC in January (Supervised Machine Learning)
-- Section 1: Build the Model
-- Section 2: Test the Model
-- Section 3: Predict
-- Section 4: Visualizations
-Part 4 - Add Insights
-- OOP method 
+### Part 1 - Chart a Straight Line
+- Follow the instructions from 10.16.
+- Use pandas DataFrames to plot Celsius vs Fahrenheit.
+
+### Part 2 - Predict Avg High Temp in NYC in January (Object Oriented Programming)
+- **Section 1:** Data Acquisition
+- **Section 2:** Data Inspection
+- **Section 3:** Data Cleaning
+- **Section 4:** Descriptive Statistics
+- **Section 5:** Build the Model
+- **Section 6:** Predict
+- **Section 7:** Visualizations
+
+### Part 3 - Predict Avg High Temp in NYC in January (Supervised Machine Learning)
+- **Section 1:** Build the Model
+- **Section 2:** Test the Model
+- **Section 3:** Predict
+- **Section 4:** Visualizations
+
+### Part 4 - Add Insights
+- OOP method
 - SML method
 - Conclusion
-Part 5 - Bonus: Multiple Linear Regression with California Housing Dataset
-- Section 1: Loading the Data
-- Section 2: Exploring Data with Pandas
-- Section 3: Visualizing the Features
-- Section 4: Splitting the Data for Training and Testing
-- Section 5: Training the Model
-- Section 6: Testing the Model
-- Section 7: Visualizing the Expected vs. Predicted Prices
-- Section 8: Regression Model Metrics
-- Section 9: Choosing the Best Model
+
+### Part 5 - Bonus: Multiple Linear Regression with California Housing Dataset
+- **Section 1:** Loading the Data
+- **Section 2:** Exploring Data with Pandas
+- **Section 3:** Visualizing the Features
+- **Section 4:** Splitting the Data for Training and Testing
+- **Section 5:** Training the Model
+- **Section 6:** Testing the Model
+- **Section 7:** Visualizing the Expected vs. Predicted Prices
+- **Section 8:** Regression Model Metrics
+- **Section 9:** Choosing the Best Model
 
 ## Contributing
 We welcome contributions to this project. If you have suggestions to improve the project or encounter issues, please open an issue or submit a pull request.
